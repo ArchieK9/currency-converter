@@ -1,12 +1,52 @@
-# React + Vite
+# 💱 Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern, responsive currency converter** built with **React.js** and **TailwindCSS**, leveraging **ExchangeRate-API** for real-time exchange rates. The app supports **currency conversion**, **favorites**, **rate alerts**, and **historical charts**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Features
 
-## Expanding the ESLint configuration
+- Convert amounts between any supported currencies.
+- Save **favorite currency pairs** for quick access.
+- Set **alerts** to get notified when a target rate is reached.
+- View **historical exchange rates** (last 7 days) in a chart.
+- Fully responsive design using TailwindCSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Tech Stack
+
+- **Frontend:** React.js, TailwindCSS
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **API:** [ExchangeRate-API](https://www.exchangerate-api.com/)
+- **Charting:** Chart.js via `react-chartjs-2`
+- **Environment Variables:** `.env` for API key
+
+---
+
+## 🚀 Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/YOUR_USERNAME/currency-converter.git
+cd currency-converter
+```
+
+currency-converter/
+│
+├─ public/
+├─ src/
+│  ├─ components/
+│  │  ├─ AmountInput.jsx
+│  │  ├─ Alerts.jsx
+│  │  ├─ ConversionResult.jsx
+│  │  ├─ CurrencySelector.jsx
+│  │  ├─ Favorites.jsx
+│  │  └─ HistoryChart.jsx
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
+├─ .env.local
+├─ package.json
+└─ README.md
