@@ -32,21 +32,3 @@ A **modern, responsive currency converter** built with **React.js** and **Tailwi
 git clone https://github.com/YOUR_USERNAME/currency-converter.git
 cd currency-converter
 ```
-
-currency-converter/
-│
-├─ public/
-├─ src/
-│  ├─ components/
-│  │  ├─ AmountInput.jsx
-│  │  ├─ Alerts.jsx
-│  │  ├─ ConversionResult.jsx
-│  │  ├─ CurrencySelector.jsx
-│  │  ├─ Favorites.jsx
-│  │  └─ HistoryChart.jsx
-│  ├─ App.jsx
-│  ├─ main.jsx
-│  └─ index.css
-├─ .env.local
-├─ package.json
-└─ README.md
